@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+  <title>Claude-Schulung</title>
+  <link>https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/</link>
+  <atom:link href="https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Hannes' persönliche KI-Schulung: zehn Minuten Claude für den Arbeitsweg.</description>
+  <language>de-de</language>
+  <itunes:author>Claude-Schulung</itunes:author>
+  <itunes:image href="https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/cover.jpg"/>
+  <image><url>https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/cover.jpg</url><title>Claude-Schulung</title><link>https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/</link></image>
+  <itunes:category text="Education"/>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <itunes:block>Yes</itunes:block>
+  <item>
+   <title>5. Datenschutz und DSGVO</title>
+   <description>Was mit deinen Eingaben bei Anthropic passiert, was personenbezogene Daten sind, der Unterschied zwischen privaten und Geschäftstarifen, die Training-Einstellung und warum Platzhalter der wirksamste Hebel ist.</description>
+   <enclosure url="https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/folgen/folge-05.mp3" length="4824813" type="audio/mpeg"/>
+   <guid isPermaLink="false">claude-schulung-folge-05</guid>
+   <pubDate>Tue, 17 Nov 2026 04:30:00 +0000</pubDate>
+   <itunes:duration>10:03</itunes:duration>
+   <itunes:episode>5</itunes:episode>
+   <itunes:explicit>false</itunes:explicit>
+  </item>
+ </channel>
+</rss>
