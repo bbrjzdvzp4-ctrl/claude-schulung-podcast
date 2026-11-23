@@ -1,5 +1,6 @@
 """Traegt eine Folge in den Podcast-Feed ein und schreibt feed.xml neu.
-Nutzung: python3 feed.py REPO-ORDNER folge-XX.mp3 NR "Titel" "Kurzbeschreibung" JJJJ-MM-TT
+Nutzung: python3 feed.py REPO-ORDNER folge-XX.mp3 NR "Titel" "Kurzbeschreibung" JJJJ-MM-TT [teile.json]
+teile.json (optional) liefert die Felder uebung und zusammenfassung fuer die Folgennotizen in Apple Podcasts.
 Kopiert die MP3 nach REPO-ORDNER/folgen/folge-XX.mp3, pflegt REPO-ORDNER/folgen.json und schreibt REPO-ORDNER/feed.xml.
 Letzte Ausgabezeile: "FEED OK: n Folgen".
 """
@@ -10,6 +11,7 @@ from xml.sax.saxutils import escape
 
 BASIS = "https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/"
 repo, mp3, nr, titel, kurz, datum = sys.argv[1:7]
+teile = json.load(open(sys.argv[7], encoding="utf-8")) if len(sys.argv) > 7 and os.path.exists(sys.argv[7]) else {}
 nr = int(nr)
 name = f"folge-{nr:02d}.mp3"
 os.makedirs(os.path.join(repo, "folgen"), exist_ok=True)
@@ -21,31 +23,53 @@ dauer = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format
 
 liste_pfad = os.path.join(repo, "folgen.json")
 liste = json.load(open(liste_pfad, encoding="utf-8")) if os.path.exists(liste_pfad) else []
+alt = next((f for f in liste if f["nr"] == nr), {})
 liste = [f for f in liste if f["nr"] != nr]
 liste.append({"nr": nr, "titel": titel, "kurz": kurz, "datum": datum, "datei": name,
-              "bytes": os.path.getsize(ziel), "dauer": round(dauer)})
+              "bytes": os.path.getsize(ziel), "dauer": round(dauer),
+              "uebung": teile.get("uebung", alt.get("uebung", "")),
+              "zusammenfassung": teile.get("zusammenfassung", alt.get("zusammenfassung", ""))})
 liste.sort(key=lambda f: f["nr"], reverse=True)
 json.dump(liste, open(liste_pfad, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
-def zeit(datum):   # Erscheinungszeit: 5:30 Uhr deutscher Zeit, in UTC als 4:30
-    return format_datetime(datetime.strptime(datum, "%Y-%m-%d").replace(hour=4, minute=30, tzinfo=timezone.utc))
+def zeit(datum):   # Erscheinungszeit: 5:30 Uhr deutscher Zeit, in UTC als 4:30; gleiche Tage nach Nummer gestaffelt
+    return datetime.strptime(datum, "%Y-%m-%d").replace(hour=4, minute=30, tzinfo=timezone.utc)
+
+def notizen(f):
+    teile = [f"<p>{escape(f['kurz'])}</p>"]
+    if f.get("uebung"):
+        teile.append(f"<p><b>Deine Übung:</b> {escape(f['uebung'])}</p>")
+    if f.get("zusammenfassung"):
+        teile.append(f"<p><b>Das Wichtigste:</b> {escape(f['zusammenfassung'])}</p>")
+    return "".join(teile)
+
+def klartext(f):
+    t = f["kurz"]
+    if f.get("uebung"):
+        t += "\n\nDeine Übung: " + f["uebung"]
+    if f.get("zusammenfassung"):
+        t += "\n\nDas Wichtigste: " + f["zusammenfassung"]
+    return t
 
 items = []
 for f in liste:
     d = f["dauer"]
+    pub = zeit(f["datum"]).replace(minute=30 + f["nr"] % 30)
     items.append(f"""  <item>
    <title>{f['nr']}. {escape(f['titel'])}</title>
-   <description>{escape(f['kurz'])}</description>
+   <description><![CDATA[{notizen(f)}]]></description>
+   <content:encoded><![CDATA[{notizen(f)}]]></content:encoded>
+   <itunes:summary>{escape(klartext(f))}</itunes:summary>
    <enclosure url="{BASIS}folgen/{f['datei']}" length="{f['bytes']}" type="audio/mpeg"/>
    <guid isPermaLink="false">claude-schulung-folge-{f['nr']:02d}</guid>
-   <pubDate>{zeit(f['datum'])}</pubDate>
+   <pubDate>{format_datetime(pub)}</pubDate>
    <itunes:duration>{d // 60}:{d % 60:02d}</itunes:duration>
    <itunes:episode>{f['nr']}</itunes:episode>
    <itunes:explicit>false</itunes:explicit>
   </item>""")
 
 xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
  <channel>
   <title>Claude-Schulung</title>
   <link>{BASIS}</link>
@@ -57,7 +81,7 @@ xml = f"""<?xml version="1.0" encoding="UTF-8"?>
   <image><url>{BASIS}cover.jpg</url><title>Claude-Schulung</title><link>{BASIS}</link></image>
   <itunes:category text="Education"/>
   <itunes:explicit>false</itunes:explicit>
-  <itunes:type>episodic</itunes:type>
+  <itunes:type>serial</itunes:type>
   <itunes:block>Yes</itunes:block>
 {chr(10).join(items)}
  </channel>

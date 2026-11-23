@@ -1,11 +1,134 @@
 [
  {
+  "nr": 12,
+  "titel": "Dateien, Formate, Ordner",
+  "kurz": "Was Dateiendungen und Formate verraten, wie Profis Ordner und Dateinamen ordnen und was Cloud oder lokal für dich und für Claude bedeutet.",
+  "datum": "2026-11-23",
+  "datei": "folge-12.mp3",
+  "bytes": 4696464,
+  "dauer": 587,
+  "uebung": "Am Ende hast du eine Ordnungsvorlage, die du im Büro und zu Hause behältst. Schritt eins: Öffne einen neuen Chat und beschreib Claude, welche Arten von Dateien du bei der Arbeit hast, also Protokolle, Angebote, Fotos und Abrechnungen. Schritt zwei: Bitte Claude um eine Ordnerstruktur für eine erfundene Wohnanlage namens Lindenhof, die für jede Anlage gleich aussieht. Schritt drei: Lass dir eine Regel für Dateinamen schreiben, mit dem Datum vorn und einem kurzen Stichwort. Schritt vier: Frag Claude, welches Format für welchen Zweck passt, und lass alles auf einer Seite zusammenfassen. Schritt fünf: Lade dir die Seite als Textdatei herunter und speichere sie in deinem Ordner Vorlagen. Dasselbe geht auch für deine Bastelprojekte.",
+  "zusammenfassung": "Die Dateiendung verrät das Format, und das Format entscheidet, welches Programm die Datei öffnen kann. Excel nimmst du zum Rechnen, CSV zum Austauschen und PDF zum Verschicken. Ordner nach festem Muster und Dateinamen mit dem Datum vorn machen Dateien für dich und für Claude auffindbar. Synchronisierung ist kein Backup, deshalb gilt die Drei-zwei-eins-Regel. Was du bei Claude hochlädst, liegt in der Cloud bei Anthropic, also nimm Platzhalter statt echter Namen."
+ },
+ {
+  "nr": 11,
+  "titel": "Claude Code zum Abnerden",
+  "kurz": "Spezial: Was Claude Code ist, vier Bastelprojekte für Raspberry Pi, 3D-Druck und Büro, und wie Profis mit Plan-Modus und Sicherungspunkten arbeiten.",
+  "datum": "2026-11-20",
+  "datei": "folge-11.mp3",
+  "bytes": 4422096,
+  "dauer": 553,
+  "uebung": "Du brauchst dafür noch kein Claude Code, nur den normalen Chat. Am Ende hast du einen Projekt-Steckbrief, den du später direkt an Claude Code gibst. Schritt eins: Such dir eines der vier Projekte aus oder nimm dein eigenes. Schritt zwei: Schreib im Chat: Interview mich zu meinem Projekt, bis du Ziel, Geräte und meinen Wissensstand kennst. Schritt drei: Lass daraus einen Steckbrief schreiben, mit Ziel, Geräten und einem ersten ganz kleinen Schritt. Schritt vier: Bitte um einen Plan in fünf Schritten, so wie ihn Claude Code im Plan-Modus machen würde. Schritt fünf: Speichere Steckbrief und Plan als Textdatei in einem neuen Ordner namens Bastelprojekte.",
+  "zusammenfassung": "Claude Code ist ein Agent, der in einem Ordner auf deinem Rechner selbst Dateien ändert und Befehle ausführt. Im Chat hast du die Hände, bei Claude Code greift der Kollege selbst zum Werkzeug und fragt vorher. Gute Einstiegsprojekte sind eine Statusseite für den Raspberry Pi, Druckteile per Code und ein kleines Werkzeug fürs Büro. Profis starten im Plan-Modus, gehen in kleinen Schritten und setzen nach jedem Erfolg einen Sicherungspunkt mit Git. Lies jede Rückfrage von Claude Code und übe erst dort, wo nichts Wichtiges kaputtgehen kann."
+ },
+ {
+  "nr": 10,
+  "titel": "Skills selbst bauen",
+  "kurz": "Was Skills sind, wie sie sich von Projekten unterscheiden und wie du deinen ersten eigenen Skill baust und sicher nutzt.",
+  "datum": "2026-11-20",
+  "datei": "folge-10.mp3",
+  "bytes": 4486992,
+  "dauer": 561,
+  "uebung": "Am Ende hast du deinen ersten eigenen Skill, den du im Büro immer wieder nutzt. Schritt eins: Prüfe in den Einstellungen, ob das Ausführen von Code eingeschaltet ist. Schritt zwei: Öffne einen neuen Chat und schreib: Hilf mir, einen Skill für freundliche Antworten auf Mieteranfragen zu bauen. Stell mir Fragen, bis du meinen Stil kennst. Schritt drei: Beantworte die Fragen und lass dir den fertigen Skill als Zip-Datei geben. Schritt vier: Lade ihn im Bereich Skills hoch und schalte ihn ein. Schritt fünf: Teste ihn in einem neuen Chat mit zwei erfundenen Anfragen, einer zu einem tropfenden Wasserhahn und einer zu lauten Nachbarn.",
+  "zusammenfassung": "Ein Skill ist ein Ordner mit Anweisungen, den Claude nur dann lädt, wenn er zur Aufgabe passt. Das unterscheidet ihn vom Projekt, dessen Wissen in jedem Chat immer da ist. Deinen eigenen Skill lässt du dir von Claude im Gespräch bauen und lädst ihn als Zip-Datei hoch. Ein guter Skill hat genau einen Zweck und eine Beschreibung, die klar sagt, wann er passt. Fremde Skills nutzt du nur aus vertrauenswürdigen Quellen und schaust vorher hinein."
+ },
+ {
+  "nr": 9,
+  "titel": "Konnektoren und MCP",
+  "kurz": "Was Konnektoren und MCP sind, wie Claude mit Postfach und Kalender zusammenarbeitet und worauf du bei Rechten und Sicherheit achtest.",
+  "datum": "2026-11-20",
+  "datei": "folge-09.mp3",
+  "bytes": 3626064,
+  "dauer": 453,
+  "uebung": "Am Ende hast du eine Vorlage für deinen Wochenstart. Schritt eins: Verbinde in den Einstellungen deinen privaten Kalender als Konnektor. Schritt zwei: Öffne einen neuen Chat und prüfe über das Pluszeichen, ob der Kalender eingeschaltet ist. Schritt drei: Schreib: Zeig mir alle Termine der nächsten sieben Tage, sortiert nach Tagen, und markiere Tage mit mehr als drei Terminen. Schritt vier: Prüf die Antwort gegen deinen Kalender. Stimmt alles? Schritt fünf: Speichere die Anweisung als Textdatei mit dem Namen Wochenstart. Wenn du magst, trägst du sie auch in die Anweisungen eines Projekts ein.",
+  "zusammenfassung": "Ein Konnektor ist eine Verbindung, über die Claude in andere Programme schaut oder dort etwas erledigt. MCP ist die gemeinsame Regel dafür, wie eine Steckdosennorm für KI-Programme. Pro Chat schaltest du Konnektoren über das Pluszeichen ein oder aus. Fang mit Lesen an und erlaube Schreiben erst, wenn du Claude vertraust. Echte Mieterdaten und versteckte Anweisungen in Mails sind die zwei großen Risiken, also bleib wachsam."
+ },
+ {
+  "nr": 8,
+  "titel": "Excel und Daten",
+  "kurz": "Wie Claude dir Formeln erklärt und baut, ganze Tabellen auswertet und wie du deine eigenen Excel-Werkzeuge sicher verbesserst.",
+  "datum": "2026-11-20",
+  "datei": "folge-08.mp3",
+  "bytes": 4279440,
+  "dauer": 535,
+  "uebung": "Am Ende hast du einen kleinen Wartungsplaner, den du behältst. Schritt eins: Prüfe in den Einstellungen, ob das Erstellen von Dateien eingeschaltet ist. Schritt zwei: Bitte Claude um eine Excel-Datei mit zehn erfundenen Heizungen. Jede bekommt einen Standort, das Datum der letzten Wartung und eine Spalte für die nächste Wartung. Schritt drei: Lass die Spalte mit der nächsten Wartung automatisch berechnen. Alles, was in weniger als dreißig Tagen fällig ist, soll rot sein. Schritt vier: Lass dir die Formel Stück für Stück erklären und teste sie mit einem Datum, dessen Ergebnis du kennst. Schritt fünf: Lade die Datei herunter und speichere sie als deine Vorlage.",
+  "zusammenfassung": "Du beschreibst in normalen Worten, was eine Formel tun soll, und Claude schreibt sie dir. Lass dir jede Formel Stück für Stück erklären, damit du sie selbst verstehst. Claude kann ganze Tabellen auswerten, Diagramme zeichnen und neue Excel-Dateien bauen. Eigene Werkzeuge verbesserst du an einer Kopie mit erfundenen Daten und mit einer Änderung pro Nachricht. Jedes Ergebnis prüfst du mit Zahlen, deren Ergebnis du schon kennst."
+ },
+ {
+  "nr": 7,
+  "titel": "Recherche mit Websuche",
+  "kurz": "Wie Claude im Internet nachschaut, wie du Quellen prüfst und wie du erfundene Antworten erkennst, bevor sie Ärger machen.",
+  "datum": "2026-11-20",
+  "datei": "folge-07.mp3",
+  "bytes": 3707664,
+  "dauer": 463,
+  "uebung": "Am Ende hast du eine Recherche-Vorlage, die du immer wieder nutzt. Schritt eins: Öffne einen neuen Chat und prüfe, ob die Websuche eingeschaltet ist. Schritt zwei: Stell eine Frage aus deinem Alltag, zum Beispiel nach der richtigen Drucktemperatur für ein Filament deiner Wahl. Schreib dazu: Nenne bei jeder Aussage die Quelle und sag offen, was du nicht belegen konntest. Schritt drei: Klick auf mindestens zwei Quellen. Prüf jeweils, ob die Aussage wirklich dasteht, wer die Seite geschrieben hat und von wann sie ist. Schritt vier: Speichere deinen Zusatzsatz als Textdatei mit dem Namen Recherche-Vorlage. Wenn du magst, trägst du ihn auch in die Anweisungen eines Projekts ein. Dann gilt er dort für jeden Chat.",
+  "zusammenfassung": "Ohne Websuche kennt Claude nur sein Wissen bis zu einem Stichtag. Die Websuche schaltest du über das Pluszeichen im Eingabefeld ein, im Büro muss sie eventuell erst freigegeben werden. Bei jeder wichtigen Aussage klickst du auf die Quelle und prüfst, was dasteht, wer schreibt und von wann es ist. Eine Halluzination klingt überzeugend, und genaue Zahlen ohne Beleg sind ein Warnzeichen. Mit dem Satz, dass Claude jede Aussage belegen und Lücken offen nennen soll, wird jede Recherche besser."
+ },
+ {
+  "nr": 6,
+  "titel": "Artefakte im Chat",
+  "kurz": "Was Artefakte sind, welche Arten es gibt vom Dokument bis zum kleinen Werkzeug, und wie du sie Schritt für Schritt verbesserst und sicher teilst.",
+  "datum": "2026-11-18",
+  "datei": "folge-06.mp3",
+  "bytes": 4254480,
+  "dauer": 532,
+  "uebung": "Am Ende hast du ein kleines Werkzeug, das du bei jeder Wohnungsübergabe nutzen kannst. Schritt eins: Öffne einen neuen Chat und bitte Claude um eine Checkliste für die Wohnungsübergabe als kleines Werkzeug mit Kästchen zum Abhaken. Nenne die Räume Flur, Küche, Bad, Wohnzimmer und Schlafzimmer. Schritt zwei: Prüf das Ergebnis im Fenster rechts. Klick ein paar Kästchen an und schreib eine erfundene Bemerkung hinein. Schritt drei: Wünsch dir genau eine Änderung, zum Beispiel ein Feld für die Zählerstände von Strom und Wasser. Prüf danach wieder. Schritt vier: Wünsch dir eine zweite Änderung, eine Zusammenfassung aller Mängel zum Ausdrucken. Schritt fünf: Such das Artefakt danach in der Seitenleiste unter Artefakte, damit du weißt, wo es am Montag liegt. Wenn du magst, baust du am Wochenende noch den Filamentrechner und testest ihn mit zwanzig Euro und achtzig Gramm.",
+  "zusammenfassung": "Ein Artefakt ist ein eigenständiges Ergebnis, das Claude neben dem Chat anzeigt und das du später im Bereich Artefakte wiederfindest. Es gibt drei Gruppen, nämlich Dokumente, Tabellen und kleine Werkzeuge zum Anklicken. Du verbesserst ein Artefakt am besten mit genau einer Änderung pro Nachricht. Jeden Rechner testest du zuerst mit Zahlen, deren Ergebnis du schon kennst. Vor dem Speichern oder Teilen prüfst du, wer die Daten sehen kann, und nutzt nur erfundene Namen."
+ },
+ {
   "nr": 5,
   "titel": "Datenschutz und DSGVO",
-  "kurz": "Was mit deinen Eingaben bei Anthropic passiert, was personenbezogene Daten sind, der Unterschied zwischen privaten und Geschäftstarifen, die Training-Einstellung und warum Platzhalter der wirksamste Hebel ist.",
+  "kurz": "Was mit deinen Eingaben bei Anthropic passiert, was personenbezogene Daten sind, der Unterschied zwischen privaten und Geschäftstarifen, die Training-Einstellung und warum Platzhalter der wirksamste Hebel sind.",
   "datum": "2026-11-17",
   "datei": "folge-05.mp3",
-  "bytes": 4824813,
-  "dauer": 603
+  "bytes": 4822416,
+  "dauer": 603,
+  "uebung": "Öffne in Claude die Einstellungen zum Datenschutz und entscheide bewusst, ob deine Chats fürs Training genutzt werden dürfen. Leg eine Textdatei „Platzhalter-Liste“ an: Personen heißen Mieter A, Mieterin B, Eigentümer C, Objekte Objekt eins, Objekt zwei, Wohnungen Einheit plus Nummer; Beträge bleiben, Kontodaten und Telefonnummern fliegen raus. Bereinige eine erfundene Mieteranfrage nach dieser Liste und lass im Projekt „Hausverwaltung Schreibbüro“ einen Antwortbrief schreiben. Leg die Platzhalter-Liste ins Projektwissen und ergänze die Anweisungen um: „Nutze immer die Platzhalter aus der Liste und frag nie nach echten Namen.“",
+  "zusammenfassung": "Alles, was du in einen Chat schreibst oder hochlädst, geht an Anthropic und wird dort verarbeitet und gespeichert. In den privaten Tarifen entscheidest du in den Datenschutz-Einstellungen, ob deine Chats fürs Training genutzt werden, und davon hängt ab, ob sie dreißig Tage oder bis zu fünf Jahre aufbewahrt werden. Für echte personenbezogene Daten in der Firma braucht es einen Geschäftstarif mit Vertrag zur Auftragsverarbeitung und die Zustimmung eurer Verantwortlichen. Ein eigener Rechner oder ein abgeschotteter Bereich macht die Nutzung nicht automatisch datenschutzkonform, weil die Daten trotzdem rausgehen. Der einfachste und wirksamste Hebel ist, Namen und Daten vor dem Senden durch Platzhalter zu ersetzen."
+ },
+ {
+  "nr": 4,
+  "titel": "Projekte und Gedächtnis",
+  "kurz": "Wie du Claude dauerhaft beibringst, wer du bist und wie du arbeitest: Projekte mit Anweisungen und Projektwissen, dazu das Gedächtnis, das du ansehen, ändern und pausieren kannst.",
+  "datum": "2026-11-16",
+  "datei": "folge-04.mp3",
+  "bytes": 4834128,
+  "dauer": 604,
+  "uebung": "Lege ein Projekt „Hausverwaltung Schreibbüro“ an. Schreib fünf bis acht Sätze Projekt-Anweisungen (wer du bist, Ton der Briefe, Länge der Antworten, bei Unklarheiten zuerst nachfragen). Lege eine Vorlage mit erfundenen Daten ins Projektwissen, zum Beispiel deine Mieteranfrage-Vorlage aus Folge 2. Starte im Projekt einen neuen Chat mit nur einem Satz (etwa: Mieterin aus dem dritten Stock meldet, dass die Heizung nicht warm wird) und prüfe, ob der Stil sofort passt. Schau zum Schluss in den Einstellungen nach, was im Gedächtnis über dich steht, und lösche einen falschen Eintrag.",
+  "zusammenfassung": "Jeder neue Chat beginnt bei null, Projekte und Gedächtnis sorgen dafür, dass du nicht immer alles neu erklären musst. Ein Projekt ist ein Aktenordner mit Anweisungen, die in jedem Chat gelten, und mit Projektwissen, also Dokumenten, auf die alle Chats zugreifen. Chats im selben Projekt sehen einander nicht, was dauerhaft gelten soll, gehört in die Anweisungen oder ins Projektwissen. Das Gedächtnis ist ein Notizbuch, das Claude nebenbei führt, und du kannst es jederzeit ansehen, ändern, pausieren oder mit einem Inkognito-Chat umgehen. Projektwissen und Gedächtnis werden bei Anthropic gespeichert, deshalb gehören echte persönliche Daten dort nicht hinein."
+ },
+ {
+  "nr": 3,
+  "titel": "Gespräche führen",
+  "kurz": "Wie aus einer Frage eine Zusammenarbeit wird: nachhaken, konkret Rückmeldung geben, Varianten, Nachrichten bearbeiten, lange Chats zusammenfassen – und Claude Fotos und Dateien mitgeben.",
+  "datum": "2026-11-13",
+  "datei": "folge-03.mp3",
+  "bytes": 4523472,
+  "dauer": 565,
+  "uebung": "Mach ein Foto von etwas, das gerade herumliegt (misslungener Druck, Raspberry Pi mit Kabeln, handschriftliche Notiz), gib es Claude und bitte um eine Beschreibung oder Einschätzung. Führe das Gespräch mindestens drei Runden weiter, jeweils mit einer konkreten Rückmeldung (kürzer, einfacher, als Schritt-für-Schritt-Liste), und lass dir zum Schluss alles zusammenfassen. Achte darauf, wie sich die Antwort mit jeder Runde verändert.",
+  "zusammenfassung": "Die erste Antwort von Claude ist ein Entwurf, den du durch Nachhaken Schritt für Schritt verbesserst. Sag konkret, was dich stört und was gut ist, und frag ruhig nach mehreren Varianten. Du kannst deine eigene Nachricht bearbeiten oder eine Antwort neu erzeugen lassen, statt gegen einen schiefen Anfang anzuschreiben. Ein Thema, ein Chat, und lange Gespräche lässt du zusammenfassen und in einem neuen Chat fortsetzen. Mit Fotos und Dateien zeigst du Claude, worum es geht, prüfst die Ergebnisse aber selbst und lädst keine echten persönlichen Daten hoch."
+ },
+ {
+  "nr": 2,
+  "titel": "Der gute Prompt",
+  "kurz": "Wie du Claude so fragst, dass beim ersten Versuch etwas Brauchbares herauskommt: die vier Bausteine Ziel, Kontext, Format und Beispiele, plus Rückfragen und das Trennen von Anweisung und Material.",
+  "datum": "2026-11-11",
+  "datei": "folge-02.mp3",
+  "bytes": 4374288,
+  "dauer": 547,
+  "uebung": "Nimm eine wiederkehrende Aufgabe, etwa die Antwort auf eine Mieteranfrage wegen eines tropfenden Wasserhahns. Schreib erst einen Ein-Satz-Prompt, dann einen mit Ziel, Kontext, Format und kurzem Beispiel (erfundene Daten) und dem Satz „Wenn dir etwas fehlt, frag mich zuerst“. Vergleiche beide Ergebnisse und speichere den guten Prompt als Vorlage in einer Textdatei.",
+  "zusammenfassung": "Ein Prompt ist deine Anfrage an Claude, und je weniger Claude raten muss, desto besser wird das Ergebnis. Ein guter Prompt hat vier Bausteine: Ziel, Kontext, Format und Beispiele. Nenne auch das Warum hinter deinen Wünschen, dann versteht Claude deine Absicht und entscheidet klüger. Lass Claude bei Unklarheiten zuerst zurückfragen und trenne deine Anweisung deutlich vom eingefügten Material. Gute Prompts für wiederkehrende Aufgaben speicherst du als Vorlage, damit du sie immer wieder nutzen kannst."
+ },
+ {
+  "nr": 1,
+  "titel": "Was ist Claude eigentlich?",
+  "kurz": "Wie ein KI-Sprachmodell arbeitet, wofür Claude stark ist und wo du aufpassen musst: Halluzinationen, Wissensstand, fehlender Zusammenhang und Datenschutz.",
+  "datum": "2026-11-10",
+  "datei": "folge-01.mp3",
+  "bytes": 3973200,
+  "dauer": 497,
+  "uebung": "Stell Claude eine Frage aus deinem Fachgebiet, deren Antwort du genau kennst, und prüfe sie kritisch. Frag dann ein zweites Mal mit mehr Zusammenhang (wer du bist, wofür, wie ausführlich) und vergleiche beide Antworten.",
+  "zusammenfassung": "Claude ist ein Sprachmodell, das an riesigen Textmengen gelernt hat, sinnvoll weiterzuschreiben. Es ist stark beim Formulieren, Erklären, Strukturieren und mit Werkzeugen beim Suchen, Rechnen und Bauen. Es kann halluzinieren, deshalb prüfst du Wichtiges nach oder lässt Quellen nennen. Claude kennt dich und deine Firma nur so gut, wie du es ihm erklärst. Echte personenbezogene Daten gehören erst hinein, wenn klar ist, was erlaubt ist."
  }
 ]
