@@ -38,8 +38,8 @@
   "kurz": "Was Skills sind, wie sie sich von Projekten unterscheiden und wie du deinen ersten eigenen Skill baust und sicher nutzt.",
   "datum": "2026-11-20",
   "datei": "folge-10.mp3",
-  "bytes": 4486992,
-  "dauer": 561,
+  "bytes": 3617325,
+  "dauer": 452,
   "uebung": "Am Ende hast du deinen ersten eigenen Skill, den du im Büro immer wieder nutzt. Schritt eins: Prüfe in den Einstellungen, ob das Ausführen von Code eingeschaltet ist. Schritt zwei: Öffne einen neuen Chat und schreib: Hilf mir, einen Skill für freundliche Antworten auf Mieteranfragen zu bauen. Stell mir Fragen, bis du meinen Stil kennst. Schritt drei: Beantworte die Fragen und lass dir den fertigen Skill als Zip-Datei geben. Schritt vier: Lade ihn im Bereich Skills hoch und schalte ihn ein. Schritt fünf: Teste ihn in einem neuen Chat mit zwei erfundenen Anfragen, einer zu einem tropfenden Wasserhahn und einer zu lauten Nachbarn.",
   "zusammenfassung": "Ein Skill ist ein Ordner mit Anweisungen, den Claude nur dann lädt, wenn er zur Aufgabe passt. Das unterscheidet ihn vom Projekt, dessen Wissen in jedem Chat immer da ist. Deinen eigenen Skill lässt du dir von Claude im Gespräch bauen und lädst ihn als Zip-Datei hoch. Ein guter Skill hat genau einen Zweck und eine Beschreibung, die klar sagt, wann er passt. Fremde Skills nutzt du nur aus vertrauenswürdigen Quellen und schaust vorher hinein."
  },

@@ -70,10 +70,10 @@ Das Wichtigste: Claude Code ist ein Agent, der in einem Ordner auf deinem Rechne
 Deine Übung: Am Ende hast du deinen ersten eigenen Skill, den du im Büro immer wieder nutzt. Schritt eins: Prüfe in den Einstellungen, ob das Ausführen von Code eingeschaltet ist. Schritt zwei: Öffne einen neuen Chat und schreib: Hilf mir, einen Skill für freundliche Antworten auf Mieteranfragen zu bauen. Stell mir Fragen, bis du meinen Stil kennst. Schritt drei: Beantworte die Fragen und lass dir den fertigen Skill als Zip-Datei geben. Schritt vier: Lade ihn im Bereich Skills hoch und schalte ihn ein. Schritt fünf: Teste ihn in einem neuen Chat mit zwei erfundenen Anfragen, einer zu einem tropfenden Wasserhahn und einer zu lauten Nachbarn.
 
 Das Wichtigste: Ein Skill ist ein Ordner mit Anweisungen, den Claude nur dann lädt, wenn er zur Aufgabe passt. Das unterscheidet ihn vom Projekt, dessen Wissen in jedem Chat immer da ist. Deinen eigenen Skill lässt du dir von Claude im Gespräch bauen und lädst ihn als Zip-Datei hoch. Ein guter Skill hat genau einen Zweck und eine Beschreibung, die klar sagt, wann er passt. Fremde Skills nutzt du nur aus vertrauenswürdigen Quellen und schaust vorher hinein.</itunes:summary>
-   <enclosure url="https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/folgen/folge-10.mp3" length="4486992" type="audio/mpeg"/>
+   <enclosure url="https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/folgen/folge-10.mp3" length="3617325" type="audio/mpeg"/>
    <guid isPermaLink="false">claude-schulung-folge-10</guid>
    <pubDate>Fri, 20 Nov 2026 04:40:00 +0000</pubDate>
-   <itunes:duration>9:21</itunes:duration>
+   <itunes:duration>7:32</itunes:duration>
    <itunes:episode>10</itunes:episode>
    <itunes:explicit>false</itunes:explicit>
   </item>
