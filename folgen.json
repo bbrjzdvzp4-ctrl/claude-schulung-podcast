@@ -126,8 +126,8 @@
   "kurz": "Wie du Claude so fragst, dass beim ersten Versuch etwas Brauchbares herauskommt: die vier Bausteine Ziel, Kontext, Format und Beispiele, plus Rückfragen und das Trennen von Anweisung und Material.",
   "datum": "2026-11-11",
   "datei": "folge-02.mp3",
-  "bytes": 4374288,
-  "dauer": 547,
+  "bytes": 3846381,
+  "dauer": 481,
   "uebung": "Nimm eine wiederkehrende Aufgabe, etwa die Antwort auf eine Mieteranfrage wegen eines tropfenden Wasserhahns. Schreib erst einen Ein-Satz-Prompt, dann einen mit Ziel, Kontext, Format und kurzem Beispiel (erfundene Daten) und dem Satz „Wenn dir etwas fehlt, frag mich zuerst“. Vergleiche beide Ergebnisse und speichere den guten Prompt als Vorlage in einer Textdatei.",
   "zusammenfassung": "Ein Prompt ist deine Anfrage an Claude, und je weniger Claude raten muss, desto besser wird das Ergebnis. Ein guter Prompt hat vier Bausteine: Ziel, Kontext, Format und Beispiele. Nenne auch das Warum hinter deinen Wünschen, dann versteht Claude deine Absicht und entscheidet klüger. Lass Claude bei Unklarheiten zuerst zurückfragen und trenne deine Anweisung deutlich vom eingefügten Material. Gute Prompts für wiederkehrende Aufgaben speicherst du als Vorlage, damit du sie immer wieder nutzen kannst."
  },
@@ -137,8 +137,8 @@
   "kurz": "Wie ein KI-Sprachmodell arbeitet, wofür Claude stark ist und wo du aufpassen musst: Halluzinationen, Wissensstand, fehlender Zusammenhang und Datenschutz.",
   "datum": "2026-11-10",
   "datei": "folge-01.mp3",
-  "bytes": 3973200,
-  "dauer": 497,
+  "bytes": 3574509,
+  "dauer": 447,
   "uebung": "Stell Claude eine Frage aus deinem Fachgebiet, deren Antwort du genau kennst, und prüfe sie kritisch. Frag dann ein zweites Mal mit mehr Zusammenhang (wer du bist, wofür, wie ausführlich) und vergleiche beide Antworten.",
   "zusammenfassung": "Claude ist ein Sprachmodell, das an riesigen Textmengen gelernt hat, sinnvoll weiterzuschreiben. Es ist stark beim Formulieren, Erklären, Strukturieren und mit Werkzeugen beim Suchen, Rechnen und Bauen. Es kann halluzinieren, deshalb prüfst du Wichtiges nach oder lässt Quellen nennen. Claude kennt dich und deine Firma nur so gut, wie du es ihm erklärst. Echte personenbezogene Daten gehören erst hinein, wenn klar ist, was erlaubt ist."
  }
