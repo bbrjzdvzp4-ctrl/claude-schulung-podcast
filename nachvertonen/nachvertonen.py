@@ -1,4 +1,4 @@
-"""Vertont die Skripte in diesem Ordner neu mit der Google-Stimme (nur Gemini, kein Florian) und traegt sie in den Feed ein.
+"""Vertont die Skripte in diesem Ordner (hoechstens zwei pro Lauf) neu mit der Google-Stimme (nur Gemini, kein Florian) und traegt sie in den Feed ein.
 Nutzung (im Repo-Ordner): python3 nachvertonen/nachvertonen.py /pfad/zu/stimme.json
 Fertige Skripte werden geloescht. Hoert auf, sobald das Google-Kontingent fuer heute leer ist.
 Letzte Zeile: "NACHVERTONT: n, OFFEN: m"."""
@@ -7,10 +7,11 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 src = open(os.path.join(R, "tts.py"), encoding="utf-8").read().rsplit("\nmain()", 1)[0]
 exec(compile(src, "tts.py", "exec"))
 cfg = json.load(open(sys.argv[1], encoding="utf-8"))
-MODELLE[:] = ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"]   # fuer die alten Folgen nur die beste Achird-Fassung
+MODELLE[:] = ["gemini-3.8-flash-lite-tts"]   # Achird; das Flash-Kontingent bleibt fuer die neue Folge am Morgen frei
+MAX_PRO_LAUF = 2
 liste = {f["nr"]: f for f in json.load(open(os.path.join(R, "folgen.json"), encoding="utf-8"))}
 fertig = 0
-for skript in sorted(glob.glob(os.path.join(R, "nachvertonen", "folge-*.txt"))):
+for skript in sorted(glob.glob(os.path.join(R, "nachvertonen", "folge-*.txt")))[:MAX_PRO_LAUF]:
     nr = int(re.search(r"folge-(\d+)", skript).group(1))
     mp3 = os.path.join(tempfile.mkdtemp(), f"folge-{nr:02d}.mp3")
     try:
