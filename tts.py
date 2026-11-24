@@ -9,7 +9,7 @@ Letzte Ausgabezeile: "FERTIG: weg=gemini ..." oder "FERTIG: weg=edge ...".
 import asyncio, base64, json, os, re, ssl, subprocess, sys, tempfile, time, urllib.error, urllib.request
 
 CA = "/root/.ccr/ca-bundle.crt"
-MODELLE = ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"]
+MODELLE = ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts", "gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts"]  # jedes Modell hat ein eigenes Tageskontingent
 STIL = ("A warm, relaxed male German podcast host in his thirties explaining something to a friend on the morning drive. "
         "Natural conversational rhythm, clear and unhurried, a slight smile in the voice. Not a news anchor, not an "
         "audiobook narrator. Speak standard German. Pronounce English product names such as Claude, Prompt or GitHub the English way.")
@@ -53,6 +53,9 @@ def gemini_anfrage(text, cfg, modell):
     url = os.environ.get("GEMINI_URL", "https://generativelanguage.googleapis.com/v1beta/models/") + modell + ":generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": text, "speech_metadata": {"style": cfg.get("stil") or STIL}}]}],
             "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"voice": cfg.get("stimme") or "Achird"}}}}
+    if not modell.startswith("gemini-3.8"):   # aeltere Modelle: Stimme in prebuiltVoiceConfig, kein Stil-Feld
+        body["generationConfig"]["speechConfig"]["voiceConfig"] = {"prebuiltVoiceConfig": {"voiceName": cfg.get("stimme") or "Achird"}}
+        body["contents"][0]["parts"] = [{"text": text}]   # ohne Stil-Satz, damit er nicht mitgelesen wird
     req = urllib.request.Request(url, json.dumps(body).encode(), {"Content-Type": "application/json", "x-goog-api-key": cfg["schluessel"]})
     ctx = ssl.create_default_context(cafile=CA) if os.path.exists(CA) and url.startswith("https") else None
     with urllib.request.urlopen(req, timeout=300, context=ctx) as r:
