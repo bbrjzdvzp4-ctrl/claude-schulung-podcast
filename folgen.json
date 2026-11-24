@@ -1,5 +1,16 @@
 [
  {
+  "nr": 13,
+  "titel": "Netzwerk, Server und API",
+  "kurz": "Wie eine Webseite auf dein Handy kommt: Router, I-P-Adresse, Server und Client, und was eine API mit Claudes Konnektoren zu tun hat.",
+  "datum": "2026-11-24",
+  "datei": "folge-13.mp3",
+  "bytes": 3815661,
+  "dauer": 477,
+  "uebung": "Du baust dir eine kleine Vorlage, mit der du Netzwerkprobleme Stufe für Stufe eingrenzt. Schritt eins: Öffne einen neuen Chat und bitte Claude, dir die Reise einer Webseite vom Handy bis zum Server in sechs einfachen Stationen zu erklären. Schritt zwei: Lass Claude zu jeder Station eine Frage formulieren, mit der du prüfst, ob es dort hakt. Zum Beispiel: Gehen andere Geräte im WLAN? Schritt drei: Bitte Claude, daraus eine Checkliste für einen erfundenen Fall zu machen. Etwa: Im Büro der Hausverwaltung Sonnenhang geht das Mailprogramm nicht, das Internet am Handy aber schon. Schritt vier: Speichere die Checkliste als Textdatei in deinem Ordner Vorlagen. Beim nächsten Ausfall, im Büro oder zu Hause, hast du sie sofort griffbereit.",
+  "zusammenfassung": "Ein Netzwerk sind verbundene Geräte, und der Router ist die Haustür deines Heimnetzes zum Internet. Jedes Gerät hat eine I-P-Adresse als Hausnummer, und der Namensdienst übersetzt Namen in diese Nummern. Ein Server beantwortet Anfragen, ein Client stellt sie, und auch dein Raspberry Pi kann Server sein. Eine API ist ein vereinbartes Formular, über das Programme miteinander reden, und Claudes Konnektoren nutzen genau das. Ein API-Schlüssel ist geheim wie ein Generalschlüssel und gehört nie in einen Chat oder eine Datei für andere."
+ },
+ {
   "nr": 12,
   "titel": "Dateien, Formate, Ordner",
   "kurz": "Was Dateiendungen und Formate verraten, wie Profis Ordner und Dateinamen ordnen und was Cloud oder lokal für dich und für Claude bedeutet.",
