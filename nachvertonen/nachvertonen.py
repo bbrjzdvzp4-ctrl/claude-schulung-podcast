@@ -7,6 +7,7 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 src = open(os.path.join(R, "tts.py"), encoding="utf-8").read().rsplit("\nmain()", 1)[0]
 exec(compile(src, "tts.py", "exec"))
 cfg = json.load(open(sys.argv[1], encoding="utf-8"))
+MODELLE[:] = ["gemini-3.8-flash-tts", "gemini-3.8-flash-lite-tts"]   # fuer die alten Folgen nur die beste Achird-Fassung
 liste = {f["nr"]: f for f in json.load(open(os.path.join(R, "folgen.json"), encoding="utf-8"))}
 fertig = 0
 for skript in sorted(glob.glob(os.path.join(R, "nachvertonen", "folge-*.txt"))):
