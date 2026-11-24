@@ -54,10 +54,10 @@ Das Wichtigste: Die Dateiendung verrät das Format, und das Format entscheidet, 
 Deine Übung: Du brauchst dafür noch kein Claude Code, nur den normalen Chat. Am Ende hast du einen Projekt-Steckbrief, den du später direkt an Claude Code gibst. Schritt eins: Such dir eines der vier Projekte aus oder nimm dein eigenes. Schritt zwei: Schreib im Chat: Interview mich zu meinem Projekt, bis du Ziel, Geräte und meinen Wissensstand kennst. Schritt drei: Lass daraus einen Steckbrief schreiben, mit Ziel, Geräten und einem ersten ganz kleinen Schritt. Schritt vier: Bitte um einen Plan in fünf Schritten, so wie ihn Claude Code im Plan-Modus machen würde. Schritt fünf: Speichere Steckbrief und Plan als Textdatei in einem neuen Ordner namens Bastelprojekte.
 
 Das Wichtigste: Claude Code ist ein Agent, der in einem Ordner auf deinem Rechner selbst Dateien ändert und Befehle ausführt. Im Chat hast du die Hände, bei Claude Code greift der Kollege selbst zum Werkzeug und fragt vorher. Gute Einstiegsprojekte sind eine Statusseite für den Raspberry Pi, Druckteile per Code und ein kleines Werkzeug fürs Büro. Profis starten im Plan-Modus, gehen in kleinen Schritten und setzen nach jedem Erfolg einen Sicherungspunkt mit Git. Lies jede Rückfrage von Claude Code und übe erst dort, wo nichts Wichtiges kaputtgehen kann.</itunes:summary>
-   <enclosure url="https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/folgen/folge-11.mp3" length="4422096" type="audio/mpeg"/>
+   <enclosure url="https://bbrjzdvzp4-ctrl.github.io/claude-schulung-podcast/folgen/folge-11.mp3" length="3631341" type="audio/mpeg"/>
    <guid isPermaLink="false">claude-schulung-folge-11</guid>
    <pubDate>Fri, 20 Nov 2026 04:41:00 +0000</pubDate>
-   <itunes:duration>9:13</itunes:duration>
+   <itunes:duration>7:34</itunes:duration>
    <itunes:episode>11</itunes:episode>
    <itunes:explicit>false</itunes:explicit>
   </item>
