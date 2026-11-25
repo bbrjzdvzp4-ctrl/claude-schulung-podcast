@@ -1,5 +1,16 @@
 [
  {
+  "nr": 14,
+  "titel": "Geplante Aufgaben",
+  "kurz": "Wie Claude nach Zeitplan von selbst arbeitet, was eine gute Anweisung ohne Aufsicht braucht und wie Profis solche Abläufe absichern, am Beispiel dieses Podcasts.",
+  "datum": "2026-11-25",
+  "datei": "folge-14.mp3",
+  "bytes": 6835824,
+  "dauer": 570,
+  "uebung": "Du baust deine erste eigene geplante Aufgabe, die du behältst. Schritt eins: Öffne Claude am Rechner und such in der Seitenleiste den Bereich für geplante Aufgaben. Die genaue Beschriftung kann je nach Sprache und Version anders sein. Schritt zwei: Lege eine neue Aufgabe an und schreib die Anweisung mit den vier Bausteinen Ziel, Schritte, Grenzen und Meldung. Nimm das Firmware-Beispiel für deinen Drucker oder ein eigenes Thema ohne echte Kundendaten. Schritt drei: Wähle als Zeitplan wöchentlich, etwa freitags um achtzehn Uhr. Schritt vier: Starte die Aufgabe einmal von Hand und lies das Ergebnis. Schritt fünf: Verbessere die Anweisung an der Stelle, die dich gestört hat. Speichere die fertige Fassung außerdem als Textdatei in deinem Ordner Vorlagen.",
+  "zusammenfassung": "Eine geplante Aufgabe ist eine Anweisung an Claude, die nach einem Zeitplan von selbst startet. Sie läuft in der Cloud, auch wenn dein Rechner schläft, und jeder Lauf beginnt ohne Erinnerung. Eine gute Anweisung enthält Ziel, Schritte, Grenzen und die Regel, wann du benachrichtigt wirst. Profis lassen feste Regeln von einem Programm prüfen und geben der Aufgabe nur die nötigen Rechte. Starte jede neue Aufgabe zuerst von Hand und übe immer mit erfundenen Daten."
+ },
+ {
   "nr": 13,
   "titel": "Netzwerk, Server und API",
   "kurz": "Wie eine Webseite auf dein Handy kommt: Router, I-P-Adresse, Server und Client, und was eine API mit Claudes Konnektoren zu tun hat.",
