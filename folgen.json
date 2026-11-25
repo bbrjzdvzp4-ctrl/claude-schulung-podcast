@@ -104,8 +104,8 @@
   "kurz": "Wie du Claude dauerhaft beibringst, wer du bist und wie du arbeitest: Projekte mit Anweisungen und Projektwissen, dazu das Gedächtnis, das du ansehen, ändern und pausieren kannst.",
   "datum": "2026-11-16",
   "datei": "folge-04.mp3",
-  "bytes": 4834128,
-  "dauer": 604,
+  "bytes": 4008045,
+  "dauer": 501,
   "uebung": "Lege ein Projekt „Hausverwaltung Schreibbüro“ an. Schreib fünf bis acht Sätze Projekt-Anweisungen (wer du bist, Ton der Briefe, Länge der Antworten, bei Unklarheiten zuerst nachfragen). Lege eine Vorlage mit erfundenen Daten ins Projektwissen, zum Beispiel deine Mieteranfrage-Vorlage aus Folge 2. Starte im Projekt einen neuen Chat mit nur einem Satz (etwa: Mieterin aus dem dritten Stock meldet, dass die Heizung nicht warm wird) und prüfe, ob der Stil sofort passt. Schau zum Schluss in den Einstellungen nach, was im Gedächtnis über dich steht, und lösche einen falschen Eintrag.",
   "zusammenfassung": "Jeder neue Chat beginnt bei null, Projekte und Gedächtnis sorgen dafür, dass du nicht immer alles neu erklären musst. Ein Projekt ist ein Aktenordner mit Anweisungen, die in jedem Chat gelten, und mit Projektwissen, also Dokumenten, auf die alle Chats zugreifen. Chats im selben Projekt sehen einander nicht, was dauerhaft gelten soll, gehört in die Anweisungen oder ins Projektwissen. Das Gedächtnis ist ein Notizbuch, das Claude nebenbei führt, und du kannst es jederzeit ansehen, ändern, pausieren oder mit einem Inkognito-Chat umgehen. Projektwissen und Gedächtnis werden bei Anthropic gespeichert, deshalb gehören echte persönliche Daten dort nicht hinein."
  },
@@ -115,8 +115,8 @@
   "kurz": "Wie aus einer Frage eine Zusammenarbeit wird: nachhaken, konkret Rückmeldung geben, Varianten, Nachrichten bearbeiten, lange Chats zusammenfassen – und Claude Fotos und Dateien mitgeben.",
   "datum": "2026-11-13",
   "datei": "folge-03.mp3",
-  "bytes": 4523472,
-  "dauer": 565,
+  "bytes": 4096941,
+  "dauer": 512,
   "uebung": "Mach ein Foto von etwas, das gerade herumliegt (misslungener Druck, Raspberry Pi mit Kabeln, handschriftliche Notiz), gib es Claude und bitte um eine Beschreibung oder Einschätzung. Führe das Gespräch mindestens drei Runden weiter, jeweils mit einer konkreten Rückmeldung (kürzer, einfacher, als Schritt-für-Schritt-Liste), und lass dir zum Schluss alles zusammenfassen. Achte darauf, wie sich die Antwort mit jeder Runde verändert.",
   "zusammenfassung": "Die erste Antwort von Claude ist ein Entwurf, den du durch Nachhaken Schritt für Schritt verbesserst. Sag konkret, was dich stört und was gut ist, und frag ruhig nach mehreren Varianten. Du kannst deine eigene Nachricht bearbeiten oder eine Antwort neu erzeugen lassen, statt gegen einen schiefen Anfang anzuschreiben. Ein Thema, ein Chat, und lange Gespräche lässt du zusammenfassen und in einem neuen Chat fortsetzen. Mit Fotos und Dateien zeigst du Claude, worum es geht, prüfst die Ergebnisse aber selbst und lädst keine echten persönlichen Daten hoch."
  },
