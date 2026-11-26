@@ -104,8 +104,8 @@
   "kurz": "Was mit deinen Eingaben bei Anthropic passiert, was personenbezogene Daten sind, der Unterschied zwischen privaten und Geschäftstarifen, die Training-Einstellung und warum Platzhalter der wirksamste Hebel sind.",
   "datum": "2026-11-17",
   "datei": "folge-05.mp3",
-  "bytes": 4822416,
-  "dauer": 603,
+  "bytes": 4065261,
+  "dauer": 508,
   "uebung": "Öffne in Claude die Einstellungen zum Datenschutz und entscheide bewusst, ob deine Chats fürs Training genutzt werden dürfen. Leg eine Textdatei „Platzhalter-Liste“ an: Personen heißen Mieter A, Mieterin B, Eigentümer C, Objekte Objekt eins, Objekt zwei, Wohnungen Einheit plus Nummer; Beträge bleiben, Kontodaten und Telefonnummern fliegen raus. Bereinige eine erfundene Mieteranfrage nach dieser Liste und lass im Projekt „Hausverwaltung Schreibbüro“ einen Antwortbrief schreiben. Leg die Platzhalter-Liste ins Projektwissen und ergänze die Anweisungen um: „Nutze immer die Platzhalter aus der Liste und frag nie nach echten Namen.“",
   "zusammenfassung": "Alles, was du in einen Chat schreibst oder hochlädst, geht an Anthropic und wird dort verarbeitet und gespeichert. In den privaten Tarifen entscheidest du in den Datenschutz-Einstellungen, ob deine Chats fürs Training genutzt werden, und davon hängt ab, ob sie dreißig Tage oder bis zu fünf Jahre aufbewahrt werden. Für echte personenbezogene Daten in der Firma braucht es einen Geschäftstarif mit Vertrag zur Auftragsverarbeitung und die Zustimmung eurer Verantwortlichen. Ein eigener Rechner oder ein abgeschotteter Bereich macht die Nutzung nicht automatisch datenschutzkonform, weil die Daten trotzdem rausgehen. Der einfachste und wirksamste Hebel ist, Namen und Daten vor dem Senden durch Platzhalter zu ersetzen."
  },
